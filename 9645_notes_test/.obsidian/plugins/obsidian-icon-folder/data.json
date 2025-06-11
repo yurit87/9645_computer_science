@@ -15,15 +15,23 @@
         "rule": "Version Control/",
         "icon": "LiGitMerge",
         "for": "everything",
-        "order": 0,
+        "order": 1,
         "useFilePath": true,
         "color": "#7a8aff"
+      },
+      {
+        "rule": "Student Notes/",
+        "icon": "LiPen",
+        "for": "everything",
+        "order": 0,
+        "color": "#fc47ff",
+        "useFilePath": true
       },
       {
         "rule": "Obsidian and Markdown/",
         "icon": "LiNotebookPen",
         "for": "everything",
-        "order": 1,
+        "order": 2,
         "useFilePath": true,
         "color": "#969696"
       },
@@ -31,7 +39,7 @@
         "rule": "9645_Topic_notes/",
         "icon": "LiBookDown",
         "for": "everything",
-        "order": 2,
+        "order": 3,
         "color": "#d400ff",
         "useFilePath": true
       }
