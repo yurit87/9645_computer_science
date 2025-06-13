@@ -17,7 +17,7 @@ Italics can be done by surrounding a word with single asterisks `*` or underscor
 Bolding can be done by surrounding a word with double asterisks `**` or underscores `__` for example **here's a sentence that has been emboldened.** it looks like this `**bold these words**` or `__bold these words__`
 
 ## Code Fences
-Code fences are a way to indicate that you want to have code highlighted with syntax highlighting in your notes, this is especially useful in Computer Science lessons!
+Code fences are a way to indicate that you want to have a [[code block]] highlighted with syntax highlighting in your notes, this is especially useful in Computer Science lessons!
 
 code fences are made using backticks ``` ` ``` these can be found next to 1 on the keyboard and above tab.
 
