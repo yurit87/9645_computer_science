@@ -24,7 +24,7 @@ brew install obsidian
 
 ## Creating your local copy of the forked repo
 - Back in your terminal, use `cd` to navigate to the folder where you are storing your Computer Science work this year.
-- Back on the GitHub website, click on the green Code button and choose GitHub CLI copy the `gh repo clone` and paste this into your terminal and run the command.
+- Back on the GitHub website, click on the green Code button and choose GitHub CLI copy the `gh repo clone` command and paste this into your terminal and run the command.
 - `cd` into the new repository.
 - Make a copy of the `student_notes` subdirectory following this naming format: `firstname_surname` you can use the following command:
 ``` shell
@@ -36,7 +36,7 @@ cp -r student_notes firstname_surname
 
 ## Opening with Obsidian
 - Now, open the **Obsidian** app.
-- Choose the option to **Open folder as vault** and choose the repository folder you cloned from GitHub.
+- Choose the option to **Open folder as vault** and choose the `9645_vault` folder you cloned from GitHub.
 - On the left hand side you will find the **explorer panel**.
 - Inside the `firstname_surname` subdirectory, make a new note and call it something like `my_first_note`
 

@@ -6,13 +6,23 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNotebookPen",
+      "LiBookText",
       "LiBookDown",
       "LiBookLock"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
-        "rule": "Version Control/",
+        "rule": "student_notes/",
+        "icon": "LiPen",
+        "for": "everything",
+        "order": 0,
+        "color": "#00aed1",
+        "useFilePath": true
+      },
+      {
+        "rule": "version_control/",
         "icon": "LiGitMerge",
         "for": "everything",
         "order": 1,
@@ -20,27 +30,11 @@
         "color": "#7a8aff"
       },
       {
-        "rule": "Student Notes/",
-        "icon": "LiPen",
-        "for": "everything",
-        "order": 0,
-        "color": "#fc47ff",
-        "useFilePath": true
-      },
-      {
-        "rule": "Obsidian and Markdown/",
-        "icon": "LiNotebookPen",
-        "for": "everything",
-        "order": 2,
-        "useFilePath": true,
-        "color": "#969696"
-      },
-      {
-        "rule": "9645_Topic_notes/",
+        "rule": "9645_course_notes/",
         "icon": "LiBookDown",
         "for": "everything",
         "order": 3,
-        "color": "#d400ff",
+        "color": "#8c00ff",
         "useFilePath": true
       }
     ],
@@ -67,5 +61,13 @@
   "9645_Topic_notes": {
     "iconName": "LiBookDown",
     "iconColor": "#e100ff"
+  },
+  "student_notes": {
+    "iconName": "LiNotebookPen",
+    "iconColor": "#00a3cc"
+  },
+  "9645_course_notes": {
+    "iconName": "LiBookDown",
+    "iconColor": "#a600ff"
   }
 }

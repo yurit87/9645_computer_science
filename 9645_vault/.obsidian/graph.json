@@ -6,36 +6,7 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:\"9645_Topic_notes/Obsidian and Markdown\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 9539985
-      }
-    },
-    {
-      "query": "path:\"9645_Topic_notes/Version Control\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 7191790
-      }
-    },
-    {
-      "query": "path:9645_Topic_notes  ",
-      "color": {
-        "a": 1,
-        "rgb": 13652704
-      }
-    },
-    {
-      "query": "path:\"Student Notes\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 15147896
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -46,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9285346751361993,
+  "scale": 1.0009390151868396,
   "close": true
 }
