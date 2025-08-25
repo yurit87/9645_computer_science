@@ -6,6 +6,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+
 2. Use homebrew to install Git, Github CLI and Obsidian.
 
 ``` shell
@@ -16,7 +17,7 @@ brew install obsidian
 
 3. Make an account for GitHub using your school Microsoft email address.
 4. Log into GitHub in your browser.
-5. Visit https://github.com/Kellett-School/9645_notes_test
+5. Visit https://github.com/Kellett-School/9645_computer_science
 6. Click fork - replace `<name>` with your initials.
 7. Open your forked version of the repository.
 8. Back in your terminal, use `cd` to navigate to the folder where you are storing your Computer Science work this year.
@@ -75,5 +76,5 @@ git pull
 git push
 ```
 
-#### 
+
 
