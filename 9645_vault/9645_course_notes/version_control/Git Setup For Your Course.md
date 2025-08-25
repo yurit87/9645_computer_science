@@ -43,6 +43,7 @@ You will use these commands **throughout** each lesson. This will allow you to p
 The three commands are `stage`, `commit` and `push`
 
 **`stage`** - register local changes that have been made to files
+*alternatively* you can use **`add`** instead of **`stage`** to add files to a commit, both work the same way. You can also use a dot `.` to represent all e.g. `git stage .` means stage all changes for commit.
 **`commit`** - save these changes to the git working tree (add a message to describe what you changed)
 **`push`** - upload the changes to the server.
 
@@ -54,16 +55,24 @@ git push
 
 Another thing that you will be told to do is update your repository by downloading updates from the origin repository - this will allow your teachers to distribute work to you.
 
-To set this up to always merge the changes from the server, run this command:
+To set this up to always merge the changes from the upstream server, run this command:
 
 ``` shell
 git config pull.rebase true
+```
+
+we need to ensure we can still access the course notes in case your teachers update these notes and add new content, this means we need to add the original git repository as a remote called 'upstream' like this:
+
+``` shell
+git remote add upstream https://github.com/Kellett-School/9645_computer_science.git
 ```
 
 Now, whenever you are prompted - run this command to download your teacher's new changes:
 
 ``` shell
 git pull upstream main 
+git pull
+git push
 ```
 
 #### 
