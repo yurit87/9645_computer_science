@@ -33,7 +33,7 @@ git init
 ```
 #### Committing to a repo
 ``` shell
-git stage *
+git stage .
 git commit -m "describe what you changed"
 git push
 ```
