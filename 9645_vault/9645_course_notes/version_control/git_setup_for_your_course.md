@@ -6,6 +6,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+---
 ## Using homebrew to install Git, Github CLI and Obsidian
 *Use homebrew to install Git, Github CLI and Obsidian.*
 
