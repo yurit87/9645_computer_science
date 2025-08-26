@@ -16,5 +16,8 @@ The standard plugins installed in this vault are:
 - [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 - [Git](https://publish.obsidian.md/git-doc/Start+here)
 - [Iconize](https://florianwoelki.github.io/obsidian-iconize/guide/getting-started.html)
+- [CodeEmitter](https://github.com/mokeyish/obsidian-code-emitter)
+- [Extended Slides](https://github.com/ebullient/obsidian-slides-extended)
+	- Enhanced Slides is a fork of [Advanced Slides](https://mszturc.github.io/obsidian-advanced-slides/) please find the documentation for Advanced slide at the link above (how to use advanced slides / extended slides.)
 
 Obsidian also allows you to hide sections (click on the arrow next to any heading) which can be very useful with long notes.
