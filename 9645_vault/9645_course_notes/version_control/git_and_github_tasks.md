@@ -8,7 +8,7 @@
 
 4. Create a script named `example_not_best_work.py` that contains some Python code of your choice.
 
-5. Upload your work folder, the `python_scripts` subfolder, and the `example_best_work.py` file to your GitHub repository (using `stage` / `commit` / `push` as taught  [[Git Setup For Your Course]].
+5. Upload your work folder, the `python_scripts` subfolder, and the `example_best_work.py` file to your GitHub repository (using `stage` / `commit` / `push` as taught  [[git_setup_for_your_course]].
 
 6. Create a new repository on GitHub (e.g., `my_first_repo`), clone the repository to your local system using `git clone`.
 

@@ -3,7 +3,7 @@ Obsidian is a [[markdown]] editor and viewer, it allows you to write markdown no
 
 Obsidian is a non-linear note taker, notes are arranged in a graph of connections, notes can be tagged, have bookmarks, contain links to websites, contain images, formatting and other things with ease.
 
-Obsidian is how we will keep our notes organised for this course, and you can keep your notes up to date using [[Git]]
+Obsidian is how we will keep our notes organised for this course, and you can keep your notes up to date using [[git]]
 
 Obsidian uses [[markdown]] notation to format text, it has a special markdown tag that is used to denote links between markdown documents. To link two documents, or to link to a document which has yet to be made, simply enclose a related word with double square brackets like this example `[[some other page]]` this would link you to a page called 'some other page'
 
