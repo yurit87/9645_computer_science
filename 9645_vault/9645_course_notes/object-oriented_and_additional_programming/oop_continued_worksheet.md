@@ -177,6 +177,7 @@ class TouringMotorbike(Motorbike):
 motorbike = Motorbike("Honda", "CBR")
 sport_motorbike = SportMotorbike("Kawasaki", "Ninja")
 touring_motorbike = TouringMotorbike("BMW", "R1250RT")
+print(touring_motorbike.ride())
 ```
 
 ---
