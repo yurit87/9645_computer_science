@@ -59,29 +59,15 @@
 
 _With your partner, discuss each code snippet. What will be output, and why?_
 
-```python
-
-class X:
-	def __init__(self):
-		self.x = "fish"
-		self.y = "cat"
-	
-	def test(self):
-		return self.x == self.y
-		
-thing = X()
-if thing.test:
-	print("Fishcat")
-```
-
+----
 
 ```python
 class A:
 	def __init__(self, thing):
-		Z.name = thing
+		A.name = thing
 		
 class B:
-	def __init__(self):
+	def __init__(self, thing):
 		self.name = thing
 		
 		
@@ -97,6 +83,25 @@ print("var3 is called", var3.name)
 
 ```
 
+---
+
+
+```python
+
+class X:
+	def __init__(self):
+		self.x = "fish"
+		self.y = "cat"
+	
+	def test(self):
+		return self.x == self.y
+		
+thing = X()
+if thing.test:
+	print("Fishcat")
+```
+
+----
 
 
 ```python
