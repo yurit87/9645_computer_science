@@ -1,7 +1,3 @@
----
-theme: simple
----
-----
 
 # Your Spec
 
@@ -9,13 +5,15 @@ theme: simple
 
 ----
 
-# Your Spec Continued
 ![[Pasted image 20250831072419.png|x200]]
 
 ----
 
 
-![[Pasted image 20250831072445.png|x200]]# Activities
+![[Pasted image 20250831072445.png|x200]]
+
+----
+# Activities
 
 1. Litmus Test - OOP Puzzles
 2. Introduction to OOP md worksheet
@@ -28,7 +26,6 @@ theme: simple
 ---
 ## Keywords Lesson 1
 
-<split even>
 
 - Object
 - Class
@@ -44,7 +41,6 @@ theme: simple
 - Pubic
 - Modifier
 
-</split>
 
 ---
 
@@ -57,16 +53,63 @@ theme: simple
 - Composition
 - Aggregation
 - Overriding
-- 
 
-----
-
+---
 # 'Do Now's Lesson 1
 
+_With your partner, discuss each code snippet. What will be output, and why?_
 
 ```python
 
 class X:
+	def __init__(self):
+		self.x = "fish"
+		self.y = "cat"
+	
+	def test(self):
+		return self.x == self.y
 		
+thing = X()
+if thing.test:
+	print("Fishcat")
 ```
 
+
+```python
+class A:
+	def __init__(self, thing):
+		Z.name = thing
+		
+class B:
+	def __init__(self):
+		self.name = thing
+		
+		
+var1 = A("Tim")
+var2 = B("Tom")
+var3 = C("Tin")
+var4 = D("Ton")
+
+print("var2 is called", var2.name)
+print("var1 is called", var1.name)
+print("var4 is called", var4.name)
+print("var3 is called", var3.name)
+
+```
+
+
+
+```python
+
+class Y:
+	def __init__(self):
+		self.__x = "horsey"
+		self.__y = "frogs"
+	
+
+		
+test = Y()
+print(f"I like {test.__x}s and I like {test.__y}s!")
+```
+
+---

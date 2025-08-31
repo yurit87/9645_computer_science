@@ -60,7 +60,7 @@ class Car(Vehicle):
 
 ## TASK 1
 
-Instantiate an object of each class and show examples of accessing the objects’ properties and running their methods.
+Instantiate an object of each class from the example and show examples of accessing the objects’ properties and running their methods.
 
 ---
 
@@ -70,13 +70,11 @@ Instantiate an object of each class and show examples of accessing the objects�
 
 *To save, share and backup your work:*
 
-```
+```bash
 git stage *this file*
-git commit -m "task 1 answered"
-git push```
+git commit -m "task 1 completed"
+git push
 ```
-
----
 
 
 ---
@@ -93,10 +91,11 @@ Create a new class named `InternationalStudent` that inherits from your `Student
 
 *To save, share and backup your work:*
 
-```
+
+```bash
 git stage *this file*
-git commit -m "task 1 answered"
-git push```
+git commit -m "task 2 completed"
+git push
 ```
 
 
@@ -114,10 +113,11 @@ Instantiate three `InternationalStudent` objects and set their default propertie
 
 *To save, share and backup your work:*
 
-```
+
+```bash
 git stage *this file*
-git commit -m "task 1 answered"
-git push```
+git commit -m "task 3 completed"
+git push
 ```
 
 ---
@@ -136,13 +136,12 @@ The `find_necessary_tutors` method iterates through the student’s grades and c
 
 *To save, share and backup your work:*
 
-```
+```bash
 git stage *this file*
-git commit -m "task 1 answered"
-git push```
+git commit -m "task 4 completed"
+git push
 ```
 
----
 
 ---
 
@@ -186,13 +185,18 @@ touring_motorbike = TouringMotorbike("BMW", "R1250RT")
 
 Override the `calculate_gpa` method in the `InternationalStudent` class. The overridden method calls the base class's `calculate_gpa` but multiplies the result by the length of the international student's name divided by 100.
 
-```python
-class InternationalStudent(Student):
-	# Existing methods...
+---
 
-	def calculate_gpa(self):
-		base_gpa = super().calculate_gpa()
-		return base_gpa * (len(self.name) / 100)
+**A:**
+
+---
+
+*To save, share and backup your work:*
+
+```bash
+git stage *this file*
+git commit -m "task 5 completed"
+git push
 ```
 
 ---
@@ -236,16 +240,23 @@ class Employee:
 
 ---
 
-## TASK 6: Refactoring for a `Subject` Class
+## TASK 6
 
 Refactor the `Student` and `InternationalStudent` classes to use a `Subject` class. Each subject has `subject_name`, `current_grade`, and `target_grade`. Update the `calculate_gpa` and `find_necessary_tutors` methods accordingly.
 
-```python
-class Subject:
-	def __init__(self, subject_name, current_grade, target_grade):
-		self.subject_name = subject_name
-		self.current_grade = current_grade
-		self.target_grade = target_grade
+
+---
+
+**A:**
+
+---
+
+*To save, share and backup your work:*
+
+```bash
+git stage *this file*
+git commit -m "task 6 completed"
+git push
 ```
 
 ---
@@ -265,8 +276,40 @@ class TeamMember:
 		self.project = project
 ```
 
+
+---
+
+**A:**
+
+---
+
+*To save, share and backup your work:*
+
+```bash
+git stage *this file*
+git commit -m "task 7 completed"
+git push
+```
+
 ---
 
 ## TASK 8: Class Relationship Diagram
 
-Your CRD here.
+Using the Mermaid Live plugin, create a class relationship diagram representing the relationships between the classes featured in the last two worksheets.
+
+---
+
+**A:**
+
+---
+
+*To save, share and backup your work:*
+
+```bash
+git stage *this file*
+git commit -m "task 8 completed"
+git push
+```
+
+
+---

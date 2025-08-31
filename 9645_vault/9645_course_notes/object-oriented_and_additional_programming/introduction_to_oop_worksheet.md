@@ -43,10 +43,11 @@ Give another example program and suggest what might be represented as an object 
 
 *To save, share and backup your work:*
 
-```
+
+```bash
 git stage *this file*
-git commit -m "task 1 answered"
-git push```
+git commit -m "task 1 completed"
+git push
 ```
 
 ---
@@ -109,10 +110,11 @@ Instantiate three employees inside variables named `bill`, `bob` and `ben`.
 
 *To save, share and back up your work:*
 
-```
+
+```bash
 git stage *this file*
-git commit -m "task 1 answered"
-git push```
+git commit -m "task 2 completed"
+git push
 ```
 
 ---
@@ -173,10 +175,11 @@ Create an instance of a `Student` - using yourself as an example.
 
 *To save, share and back up your work:*
 
-```
+
+```bash
 git stage *this file*
-git commit -m "task 3 complete"
-git push```
+git commit -m "task 3 completed"
+git push
 ```
 
 ---
@@ -253,11 +256,13 @@ Create getter methods so that every property contained within a given student ca
 
 *To save, share and back up your work:*
 
-```
+
+```bash
 git stage *this file*
-git commit -m "task 4 complete"
-git push```
+git commit -m "task 4 completed"
+git push
 ```
+
 
 ---
 
@@ -283,11 +288,13 @@ The GPA can be calculated by finding the point score for each grade the student 
 
 *To save, share and back up your work:*
 
-```
+
+```bash
 git stage *this file*
-git commit -m "task 3 complete"
-git push```
+git commit -m "task 5 completed"
+git push
 ```
+
 
 ---
 
@@ -318,16 +325,18 @@ Implement getters / setters for the new properties as required.
 
 *To save, share and backup your work:*
 
-```
+
+```bash
 git stage *this file*
-git commit -m "task 1 answered"
-git push```
+git commit -m "task 6 completed"
+git push
 ```
+
 
 ---
 ## Pythonic Getters & Setters (Extension)
 
-Creating getter and setter methods `set_property` and `get_property` align with other programming language paradigms e.g. Java and this is mostly likely what your examiners will be looking for.
+Creating explicit getter and setter methods `set_property` and `get_property` aligns with other programming language paradigms e.g. Java and this is mostly likely what your examiners will be looking for.
 
 However, [PEP 549](https://peps.python.org/pep-0549/) introduced a more Pythonic way of implementing this using the `@property` decorator syntax.
 
@@ -344,10 +353,12 @@ Re-write your `Student` class from this worksheet using the Pythonic getter / se
 
 *To save, share and backup your work:*
 
-```
+
+```bash
 git stage *this file*
-git commit -m "extension task complete"
-git push```
+git commit -m "extension task completed"
+git push
 ```
+
 
 ---

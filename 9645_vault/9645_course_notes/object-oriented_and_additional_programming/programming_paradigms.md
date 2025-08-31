@@ -17,7 +17,7 @@ For your syllabus, you need to be able to:
 
 In the functional programming paradigm, functions are treated as first-class objects, meaning they can be assigned to variables, passed as arguments, and returned from other functions. Programs are built by composing pure functions, which accept arguments and return results without altering global state. These functions are stateless and must always produce the same output for the same input, with no side effects such as modifying variables outside their scope or performing I/O operations.
 
-````python
+
 ```python
 from functools import reduce
 
@@ -46,7 +46,10 @@ print(result)  # Output: 20
 
 Imperative programming follows a step-by-step approach where each line of code explicitly tells the computer what to do in a specific sequence. This paradigm focuses on controlling the flow of execution using loops, conditionals, and state changes. Procedures within the program manipulate global or shared variables to achieve the desired results, and side effects are expected and common.
 
-````python
+*Imperative programming can be contrasted to functional programming as shared state (i.e. global data) is a common feature.*
+
+*Imperative programming can also be contrasted to declarative programming (see below) as a program specifically outlines the steps required to solve a problem, rather than just a description of what the results should be.*
+
 ```python
 # Imperative programming example
 numbers = [1, 2, 3, 4, 5]
@@ -72,7 +75,7 @@ print(result)  # Output: 20
 
 Object-oriented programming organises code into objects, which are instances of classes. A class serves as a blueprint, defining properties (attributes) and methods (functions) that encapsulate related logic and data. Objects maintain their own internal state, and direct access to another object's state is discouraged. Instead, objects communicate through well-defined interfaces, promoting encapsulation and modularity.
 
-````python
+
 ```python
 class Gadget:
     def __init__(self, name, price):
@@ -95,7 +98,7 @@ print(phone.price)  # Output: 900
 
 Low-level programming involves direct manipulation of the hardware through basic instructions such as memory I/O operations and branching. This paradigm operates close to the machine, often bypassing abstractions provided by high-level languages. Programmers write code that directly interacts with registers, memory addresses, and CPU instructions, which can yield high performance but requires meticulous attention to detail.
 
-````python
+
 ```asm
 ; Assembly example (x86 NASM syntax)
 section .data
@@ -121,7 +124,7 @@ _start:
 
 Declarative programming describes **what** the program should accomplish rather than **how** to accomplish it. It abstracts away the control flow and implementation details, allowing the programmer to focus on specifying the desired outcome. Common declarative paradigms include SQL for databases and functional-style list comprehensions in Python.
 
-````python
+
 ```python
 # Declarative programming example with list comprehensions
 numbers = [1, 2, 3, 4, 5]
@@ -129,6 +132,9 @@ result = sum(x * x for x in numbers if (x * x) % 2 == 0)
 print(result)  # Output: 20
 ````
 
+```SQL
+SELECT amount FROM transaction WHERE amount > 10 AND suspicious_flag = TRUE
+```
 ---
 
 # Logic Programming
