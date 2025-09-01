@@ -179,6 +179,14 @@ Create an instance of a `Student` - using yourself as an example.
 ---
 
 **A:**
+```python
+class Student:
+	def __init__(self):
+		self.birth = "07/08/09"
+		self.__class = "12 Clementi"
+		
+Yuri = Student()
+```
 
 ---
 
@@ -260,6 +268,14 @@ Create getter methods so that every property contained within a given student ca
 ---
 
 **A:**
+```python
+class Student:
+	def __init__(self):
+		
+	def set_favourite_subject(self, favourite_subject:str):
+		if len(favourite_subject) >= 3:
+			self.favourite_subject = favourite_subject
+```
 
 ---
 
