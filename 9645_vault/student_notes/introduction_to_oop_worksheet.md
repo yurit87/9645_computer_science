@@ -105,6 +105,15 @@ Instantiate three employees inside variables named `bill`, `bob` and `ben`.
 ---
 
 **A:**
+```python
+class Employee():
+	def __init__(self):
+		self.salary = input("How much am I getting paid?")
+		
+bill = Employee()
+bob = Employee()
+ben = Employee()
+```
 
 ---
 
