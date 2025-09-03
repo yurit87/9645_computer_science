@@ -271,10 +271,36 @@ Create getter methods so that every property contained within a given student ca
 ```python
 class Student:
 	def __init__(self):
+		self.__gpa = 0.0
+		self.__eca_num = 0
+		self.__favourite_subject = ""
 		
-	def set_favourite_subject(self, favourite_subject:str):
-		if len(favourite_subject) >= 3:
-			self.favourite_subject = favourite_subject
+	def set_favourite_subject(self, current_fav_subject:str):
+		if len(current_fav_subject) >= 3:
+			self.__favourite_subject = current_fav_subject
+	
+	def add_grade(self, grade: float):
+		self.__gpa = grade
+		
+	def add_eca(self):
+		self.__eca_num += 1
+		
+	def get_favourite_subject(self) -> str:
+		return self.__favourite_subject
+		
+	def get_grade(self) -> float:
+		return self.__gpa
+		
+	def get_eca(self) -> int:
+		return self.__eca_num
+		
+if __name__ == "__main__":
+	yuri = Student()
+	yuri.set_favourite_subject("maths")
+	print(f"Yuri's favourite subject is {yuri.get_favourite_subject()}")
+		
+
+
 ```
 
 ---
