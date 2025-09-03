@@ -339,9 +339,9 @@ class Student:
 	def __init__(self):
 		self.__average_score = 0.0
 		
-	def calculate_gpa(self, grade_scores -> list):
+	def calculate_gpa(self, grade_scores: list):
 		total = 0
-		for score in range(grade_scores):
+		for score in range(len(grade_scores)):
 			total += float(score)
 			
 		average = round(total / len(grade_scores), 2)
@@ -411,13 +411,13 @@ class Student:
 		self._birthday = ""
 		self.__id_number = 0
 		
-	def set_name(self, your_name -> str):
+	def set_name(self, your_name) -> str:
 		self.name = your_name
 		
-	def set_birthday(self, your_birthday -> str):
+	def set_birthday(self, your_birthday) -> str:
 		self._birthday = your_birthday
 		
-	def set_id_number(self, your_id_number -> int):
+	def set_id_number(self, your_id_number) -> int:
 		self.__id_number = your_id_number
 	
 	def get_name(self) -> str:
@@ -430,11 +430,12 @@ class Student:
 		return self.__id_number
 		
 
-yuri = Student()
-yuri.set_name("Yuri")
-yuri.set_birthday("08/07")
-yuri.set_id_number(123817491823)
-print(f"{yuri.get_name()}'s birthday is {yuri.get_birthday()} and the id number of this person is {yuri.get_id_number()}")
+if __name__ == "__main__":
+	yuri = Student()
+	yuri.set_name("Yuri")
+	yuri.set_birthday("08/07")
+	yuri.set_id_number(123817491823)
+	print(f"{yuri.get_name()}'s birthday is {yuri.get_birthday()} and the id number of this person is {yuri.get_id_number()}")
 	
 	
 ```
