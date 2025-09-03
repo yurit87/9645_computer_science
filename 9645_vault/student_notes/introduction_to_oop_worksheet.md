@@ -334,7 +334,40 @@ The GPA can be calculated by finding the point score for each grade the student 
 ---
 
 **A:**
+```python
+class Student:
+	def __init__(self):
+		self.__average_score = 0.0
+		
+	def calculate_gpa(self, grade_scores -> list):
+		total = 0
+		for score in range(grade_scores):
+			total += float(score)
+			
+		average = round(total / len(grade_scores), 2)
+		self.__average_score = average
+	
+	def get_score(self) -> str:
+		if self.__average_score == 4:
+			return "A*"
+		elif self.__average_score >= 3.2:
+			return "A"
+		elif self.__average_score >= 2.6:
+			return "B"
+		elif self.__average_score >= 1.8:
+			return "C"
+		elif self.__average_score >= 1.0:
+			return "D"
+		elif self.__average_score >= 0.2:
+			return "E"
+		else:
+			return "U"
+			
 
+yuri = Student()
+yuri.calculate_gpa(["3.3", "2.8", "3.7", "3.8", "2.4"])		
+print(f"Yuri's grade: {yuri.get_score()}")
+```
 ---
 
 *To save, share and back up your work:*
@@ -370,7 +403,42 @@ Implement getters / setters for the new properties as required.
 
 ---
 
-**A:**
+**A:** 
+```python
+class Student:
+	def __init__(self):
+		self.name = ""
+		self._birthday = ""
+		self.__id_number = 0
+		
+	def set_name(self, your_name -> str):
+		self.name = your_name
+		
+	def set_birthday(self, your_birthday -> str):
+		self._birthday = your_birthday
+		
+	def set_id_number(self, your_id_number -> int):
+		self.__id_number = your_id_number
+	
+	def get_name(self) -> str:
+		return self.name
+	
+	def get_birthday(self) -> str:
+		return self._birthday
+		
+	def get_id_number(self) -> int:
+		return self.__id_number
+		
+
+yuri = Student()
+yuri.set_name("Yuri")
+yuri.set_birthday("08/07")
+yuri.set_id_number(123817491823)
+print(f"{yuri.get_name()}'s birthday is {yuri.get_birthday()} and the id number of this person is {yuri.get_id_number()}")
+	
+	
+```
+
 
 ---
 
