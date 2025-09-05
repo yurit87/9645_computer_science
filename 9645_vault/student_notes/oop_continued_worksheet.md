@@ -65,6 +65,18 @@ Instantiate an object of each class from the example and show examples of access
 ---
 
 **A:**
+```python
+car1 = Car("make?", "1234", 2000, 3)
+
+print(car1.get_make(), car1.get_model(), car1.get_year(), car1.get_num_doors())
+
+  
+
+motorbike1 = Motorbike("made", "T123", 2010, True)
+
+print(motorbike1.get_make(), motorbike1.get_engine_displacement())
+
+```
 
 ---
 
@@ -86,6 +98,9 @@ Create a new class named `InternationalStudent` that inherits from your `Student
 ---
 
 **A:**
+```python
+class International_student(Student)
+```
 
 ---
 
