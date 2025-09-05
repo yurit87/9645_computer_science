@@ -99,7 +99,50 @@ Create a new class named `InternationalStudent` that inherits from your `Student
 
 **A:**
 ```python
-class International_student(Student)
+
+class Student:
+	def __init__(self):
+		self.__gpa = 0.0
+		self.__eca_num = 0
+		self.__favourite_subject = ""
+		
+	def set_favourite_subject(self, current_fav_subject:str):
+		if len(current_fav_subject) >= 3:
+			self.__favourite_subject = current_fav_subject
+	
+	def add_grade(self, grade: float):
+		self.__gpa = grade
+		
+	def add_eca(self):
+		self.__eca_num += 1
+		
+	def get_favourite_subject(self) -> str:
+		return self.__favourite_subject
+		
+	def get_grade(self) -> float:
+		return self.__gpa
+		
+	def get_eca(self) -> int:
+		return self.__eca_num
+
+class International_student(Student):
+	def __init__(self, fee_paid, nationality, grade_expected_by_parent):
+		super().__init__()
+		self.nationality = nationality
+		self.__fee_paid = fee_paid
+		self._grade_expected_by_parent = grade_expected_by_parent
+		
+	def get_nationality(self):
+		return self.nationality
+		
+	def get_fee_paid(self):
+		return self.__fee_paid
+		
+	def get_grade_expected_by_parent(self):
+		return self._grade_expected_by_parent	
+			
+```
+
 ```
 
 ---
@@ -123,6 +166,50 @@ Instantiate three `InternationalStudent` objects and set their default propertie
 ---
 
 **A:**
+```python
+
+class Student:
+	def __init__(self):
+		self.__gpa = 0.0
+		self.__eca_num = 0
+		self.__favourite_subject = ""
+		
+	def set_favourite_subject(self, current_fav_subject:str):
+		if len(current_fav_subject) >= 3:
+			self.__favourite_subject = current_fav_subject
+	
+	def add_grade(self, grade: float):
+		self.__gpa = grade
+		
+	def add_eca(self):
+		self.__eca_num += 1
+		
+	def get_favourite_subject(self) -> str:
+		return self.__favourite_subject
+		
+	def get_grade(self) -> float:
+		return self.__gpa
+		
+	def get_eca(self) -> int:
+		return self.__eca_num
+
+class International_student(Student):
+	def __init__(self, fee_paid, nationality, grade_expected_by_parent):
+		super().__init__()
+		self.nationality = nationality
+		self.__fee_paid = fee_paid
+		self._grade_expected_by_parent = grade_expected_by_parent
+		
+	def get_nationality(self):
+		return self.nationality
+		
+	def get_fee_paid(self):
+		return self.__fee_paid
+		
+	def get_grade_expected_by_parent(self):
+		return self._grade_expected_by_parent	
+			
+```
 
 ---
 
