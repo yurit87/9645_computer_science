@@ -208,6 +208,10 @@ class International_student(Student):
 		
 	def get_grade_expected_by_parent(self):
 		return self._grade_expected_by_parent	
+		
+Amy = International_student(1000000000, "Hong Kong", "A")
+Beth = International_student(55555555, "UK", "A*")
+Cath = International_student(8888888888, "Australia", "B")
 			
 ```
 
